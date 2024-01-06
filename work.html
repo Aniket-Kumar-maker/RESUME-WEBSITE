@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <title>Rock, Paper, Scissors Game</title>
+</head>
+<body>
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #3498db, #e3e9ef);
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, p, ul, ol {
+    color: #333;
+}
+
+.project-details h2, .learning-challenges h2, .future-enhancements h2, .conclusion h2 {
+    color: #3498db;
+    margin-top: 30px;
+}
+
+.project-details ul, .project-details ol, .future-enhancements ul {
+    margin-bottom: 30px;
+}
+
+.project-details ul li, .project-details ol li, .future-enhancements ul li {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #eb81e9;
+}
+
+/* Additional Styling for Technologies Used */
+.technologies-used {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Additional Styling for Gameplay */
+.gameplay {
+    background-color: #eb81e9;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Additional Styling for Features */
+.features {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Additional Styling for Sections */
+.project-details section {
+    margin-bottom: 40px;
+}
+
+/* Additional Styling for Conclusion */
+.conclusion {
+    background-color: #eb81e9;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.navbar {
+    
+    background: linear-gradient(to right, #8e44ad, #3498db); 
+     overflow: hidden;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 40px; /* Adjust the height as needed */
+ }
+
+ .nav-link {
+     font-weight: bold;
+     color: white;
+     text-decoration: none;
+     padding: 10px 16px;
+     transition: color 0.3s, transform 0.3s ;
+ }
+
+ .nav-link:hover {
+     color: #d5dad5;
+     transform: scale(1.2)
+ }
+
+
+    </style>
+    <div class="navbar">
+        <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="education.html" class="nav-link">Education</a>
+        <a href="work.html" class="nav-link">Works</a>
+        </nav>
+    </div>
+    <div class="container">
+        <header>
+            <h1>Project 1: Rock, Paper, Scissors Game</h1>
+        </header>
+        <section class="project-details">
+            <h2>Overview:</h2>
+            <p>Welcome to my Rock, Paper, Scissors game—a classic and timeless game brought to life through the magic of web development. This project was created using HTML, CSS, and JavaScript, allowing users to engage in the fun and excitement of the age-old Rock, Paper, Scissors battle.</p>
+
+            <h2>Project Details:</h2>
+            <div class="technologies-used">
+                <h3>Technologies Used:</h3>
+                <ul>
+                    <li><strong>HTML:</strong> The foundation of the game structure, providing the basic layout and elements.</li>
+                    <li><strong>CSS:</strong> Styles were applied to enhance the visual appeal, creating an engaging and responsive design.</li>
+                    <li><strong>JavaScript:</strong> The logic behind the game mechanics, enabling dynamic interaction and decision-making.</li>
+                </ul>
+            </div>
+
+            <div class="gameplay">
+                <h3>Gameplay:</h3>
+                <p>The Rock, Paper, Scissors game follows the traditional rules:</p>
+                <ol>
+                    <li>Rock crushes Scissors.</li>
+                    <li>Scissors cuts Paper.</li>
+                    <li>Paper covers Rock.</li>
+                </ol>
+                <p>Players select their choice, and the computer randomly chooses its move. The winner is determined based on the game rules, and the result is displayed to the user.</p>
+            </div>
+
+            <div class="features">
+                <h3>Features:</h3>
+                <ul>
+                    <li><strong>User Input:</strong> Players can click on buttons representing Rock, Paper, or Scissors to make their choice.</li>
+                    <li><strong>Computer Opponent:</strong> The computer generates a random move to compete against the user, creating a dynamic and unpredictable gaming experience.</li>
+                    <li><strong>Result Display:</strong> The game instantly displays the result, indicating whether the user won, lost, or if it's a tie.</li>
+                    <li><strong>Visual Feedback:</strong> Engaging visual effects and animations provide feedback for user actions and enhance the gaming experience.</li>
+                    <li><strong>Responsive Design:</strong> The game is designed to be responsive, ensuring an optimal user experience on various devices and screen sizes.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="learning-challenges">
+            <h2>Learning and Challenges:</h2>
+            <p>Creating this Rock, Paper, Scissors game was an exciting journey that allowed me to reinforce my knowledge of HTML, CSS, and JavaScript. Challenges included implementing the game logic, ensuring a fair and unpredictable computer opponent, and incorporating visually appealing design elements.</p>
+        </section>
+
+        <section class="future-enhancements">
+            <h2>Future Enhancements:</h2>
+            <p>While the current version offers a delightful gaming experience, future enhancements could include:</p>
+            <ul>
+                <li><strong>Score Tracking:</strong> Implement a score system to keep track of wins, losses, and ties.</li>
+                <li><strong>Advanced AI:</strong> Enhance the computer opponent's intelligence for a more challenging game.</li>
+                <li><strong>Multiplayer Mode:</strong> Introduce a multiplayer option for users to compete against friends online.</li>
+            </ul>
+        </section>
+
+        <section class="conclusion">
+            <h2>Conclusion:</h2>
+            <p>The Rock, Paper, Scissors game project is a testament to the combination of creativity and technical skills in web development. It serves as a fun and interactive addition to my portfolio, showcasing my ability to create engaging and dynamic web applications.</p>
+        </section>
+    </div>
+    <script>
+     document.addEventListener("DOMContentLoaded", function () {
+    const container = document.querySelector(".container");
+
+    // Add a click event listener to the container
+    container.addEventListener("click", function () {
+        // Generate a random color for the background
+        const randomColor = getRandomColor();
+        
+        // Change the background color of the container
+        container.style.backgroundColor = randomColor;
+    });
+
+    // Function to generate a random color
+    function getRandomColor() {
+        const letters = "0123456789ABCDEF";
+        let color = "#";
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+});
+document.addEventListener("DOMContentLoaded", function () {
+    // Get all the navigation links
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    // Add a click event listener to each link
+    navLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            // Get the target section ID from the link's href
+            const targetId = link.getAttribute('href').substring(1);
+
+            // Scroll to the target section with a smooth effect
+            document.getElementById(targetId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+});
+    </script>
+</body>
+</html>

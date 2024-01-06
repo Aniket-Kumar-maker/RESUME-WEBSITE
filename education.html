@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="education.css">
+    <title>Aniket Kumar - Education</title>
+</head>
+<body>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #3498db, #6c757d);
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ h2, p {
+    color: #fbf7f7;
+    
+}
+h1{
+    color:rgb(252, 247, 247);
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.education-timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-item {
+    border-left: 2px solid #fff;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.timeline-item:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.timeline-content {
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .education-timeline {
+        flex-direction: row;
+    }
+
+    .timeline-item {
+        flex: 1;
+        margin: 0;
+        margin-right: 20px;
+    }
+}
+.navbar {
+    
+    background: linear-gradient(to right, #8e44ad, #3498db); 
+     overflow: hidden;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 40px; /* Adjust the height as needed */
+ }
+
+ .nav-link {
+     font-weight: bold;
+     color: white;
+     text-decoration: none;
+     padding: 10px 16px;
+     transition: color 0.3s, transform 0.3s ;
+ }
+
+ .nav-link:hover {
+     color: #d5dad5;
+     transform: scale(1.2)
+ }
+</style>
+    <div class="navbar">
+        <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="education.html" class="nav-link">Education</a>
+        <a href="work.html" class="nav-link">Works</a>
+        </nav>
+    </div>
+    <div class="container">
+        <header>
+            <h1>Education</h1>
+        </header>
+        <section class="education-timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h2>Little Flower School, Jamshedpur</h2>
+                    <p>ICSE, Class Xth</p>
+                    <p>March 2009 - April 2020</p>
+                    <p>Board Percentage: 96%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h2>Vidya Bharati Chinmaya Vidyalaya, Jamshedpur</h2>
+                    <p>CBSE, Class XIIth</p>
+                    <p>May 2020 - July 2022</p>
+                    <p>Board Percentage: 81%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h2>RV University, Bangalore</h2>
+                    <p>BTech in Computer Science and Engineering</p>
+                    <p>2023 - Present</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

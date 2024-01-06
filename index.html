@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            background:linear-gradient(to right, #d7d5d6, #732fb8); 
+        }
+
+        .navbar {
+    
+           background: linear-gradient(to right, #8e44ad, #3498db); 
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 40px; /* Adjust the height as needed */
+        }
+
+        .nav-link {
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            padding: 10px 16px;
+            transition: color 0.3s, transform 0.3s ;
+        }
+
+        .nav-link:hover {
+            color: #d5dad5;
+            transform: scale(1.2)
+        }
+
+        .content {
+            display: flex;
+            padding: 20px;
+            align-items: center;
+        }
+
+        .text {
+            width: 450px;
+            margin-left: 90px;
+            line-height: 52px;
+        }
+
+        img {
+            margin-top: 85px;
+            max-width: 350px;
+            margin-left: auto;
+            margin-right: 335px;
+            border-radius: 15px;
+
+        }
+        .Info
+        {
+            margin-left: 25px;
+            font-weight: bold;
+            font-size: 35px;
+            color: #0d0d0e;
+            font-family: 'Times New Roman', Times, serif;
+            width:450px;
+            margin-bottom: 0px;
+        }
+        .name
+        {
+            font-size: 50px;
+            font-weight: bold;
+            color: rgb(18, 14, 226);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .college
+        {
+            font-size: 35px;
+            font-weight: bold;
+            color: rgb(157, 5, 119);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        button
+        {
+            margin-top: 8px;
+          color:#d7d5d6;
+          padding: 15px;
+          margin-left: 155px;
+          background-color: #3498db;
+          font-weight: bold;
+          font-size: 18px;
+          border-radius: 12px;
+          border:#3498db;
+          box-shadow: rgba(0,0,0,0.3);
+          transition :opacity 0.3s;
+        }
+        button:hover{
+            opacity: 0.7;
+        }
+        a:link {
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            padding: 10px 16px;
+            transition: color 0.3s, transform 0.3s ;
+        }
+        a:visited{
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+
+        
+
+    </style>
+    <title>Your Website</title>
+</head>
+<body>
+
+<div class="navbar">
+    <nav>
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="skills.html" class="nav-link">Skills</a>
+    <a href="education.html" class="nav-link">Education</a>
+    <a href="work.html" class="nav-link">Works</a>
+    </nav>
+</div>
+
+<div class="content">
+    <div class="text">
+        <p class="Info">Hello There!<br> I am <span class="name">Aniket Kumar</span>, a freshman at <span class="college">RV University</span>.</p>
+        <button><a href="about.html">Contact</a></button>
+    </div>
+    <img src="WS10.jpg" alt="An Image">
+</div>
+</body>
+</html>
